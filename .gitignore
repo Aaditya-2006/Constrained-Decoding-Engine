@@ -1,0 +1,13 @@
+# Python Cache and Virtual Environments
+.cache/
+__pycache__/
+llm_env/
+
+# Large Model Weights (Prevents GitHub rejection for files > 100MB)
+*.gguf
+
+# Old Phase Drafts (Keeps them on your PC, but hides them from GitHub)
+phase*.py
+
+# Local Screenshots
+Screenshot*.jpg
